@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Canteen_managment" parent="Theme.Material3.DayNight">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:colorBackground">#f8dda8</item> <!-- Set the background color of the ActionBar -->
+        <item name="android:textColorPrimary">@color/black</item> <!-- Set the text color of the ActionBar -->
+    </style>
+
+    <style name="Theme.Canteen_managment" parent="Base.Theme.Canteen_managment">
+    <item name="android:colorBackground">#f8dda8</item> <!-- Set the background color of the ActionBar -->
+    <item name="android:textColorPrimary">@color/black</item> <!-- Set the text color of the ActionBar -->
+    </style>
+
+        <style name="AppTheme" parent="Theme.Material3.DayNight">
+            <item name="colorPrimary">@color/color_primary</item>
+            <item name="colorPrimaryDark">@color/color_secondary</item>
+            <item name="colorAccent">@color/color_accent</item>
+            <item name="android:statusBarColor">@color/color_primary</item>
+        </style>
+</resources>
